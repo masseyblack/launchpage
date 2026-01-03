@@ -1,0 +1,96 @@
+/* Countdown boxes */
+.time-box {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 24px 32px;
+  min-width: 110px;
+  transition: transform 0.3s ease;
+}
+
+.dark .time-box {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.time-box h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.time-box span {
+  font-size: 0.875rem;
+  color: #172033;
+}
+
+.dark .time-box span {
+  color: #d1d5db;
+}
+
+/* Service cards */
+.service-card {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.dark .service-card {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card h4 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  font-size: 0.875rem;
+  color: #182235;
+}
+
+.dark .service-card p {
+  color: #d1d5db;
+}
+
+img{
+  border-radius: 100%;
+}
+
+ .dark body {
+  background: linear-gradient(to bottom right,#012e26, #006d5b, #012e26);
+  color: #111827;
+}
+
+ body {
+  background: linear-gradient(to bottom right,#36373b, #9ea0a3, #36373b);
+  color: #f9fafb;
+}
+
+.dark .btn{
+  background: #c4c5c5;
+  color:#006d5b;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.dark .btn:hover{
+  background: #006d5b;
+  color:#c4c5c5;
+}
+
+.btn{
+  background:#006d5b;
+  color:#c4c5c5;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background: #c4c5c5;
+  color:#006d5b;
+}

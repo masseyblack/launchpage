@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launching Soon</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="min-h-screen flex items-center justify-center px-6 transition-colors duration-300">
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle"
+    class="absolute top-6 right-6 bg-black/10 dark:bg-white/10
+           px-4 py-2 rounded-lg text-sm backdrop-blur-md">
+    ☀️ Light
+  </button>
+
+  <div class="max-w-5xl w-full text-center">
+
+    <!-- Logo -->
+    <div class="mb-8">
+      <img src="ASSET/logow.jpeg" class="mx-auto w-32 mb-3" alt="Logo">
+      <h2 class="text-2xl font-semibold tracking-widest">SAFENET CONSULTS</h2>
+    </div>
+
+    <!-- Hero -->
+    <h1 class="text-5xl font-bold mb-4">We’re Launching Soon 🚀</h1>
+    <p class="text-lg text-gray-900 dark:text-gray-300 mb-12">
+      Something secure. Something powerful. Coming soon.
+    </p>
+
+    <!-- Countdown -->
+    <div class="flex justify-center gap-6 flex-wrap mb-14">
+      <div class="time-box"><h2 id="days">00</h2><span>Days</span></div>
+      <div class="time-box"><h2 id="hours">00</h2><span>Hours</span></div>
+      <div class="time-box"><h2 id="minutes">00</h2><span>Minutes</span></div>
+      <div class="time-box"><h2 id="seconds">00</h2><span>Seconds</span></div>
+    </div>
+
+    
+    
+    <!-- Services -->
+    <h3 class="text-3xl font-semibold mb-10">Our Services</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="service-card">
+        <h4>Cybersecurity Advisory</h4>
+        <p>Identify and manage cyber risks.</p>
+      </div>
+      <div class="service-card">
+        <h4>VAPT</h4>
+        <p>Detect security vulnerabilities early.</p>
+      </div>
+      <div class="service-card">
+        <h4>ISMS Support</h4>
+        <p>Structured information security.</p>
+      </div>
+      <div class="service-card">
+        <h4>Compliance Advisory</h4>
+        <p>Meet regulatory requirements.</p>
+      </div>
+      <div class="service-card">
+        <h4>Security Training</h4>
+        <p>Reduce human-related risks.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-16 text-sm text-gray-300">
+      © 2026 Safenet Consults. All rights reserved.
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
