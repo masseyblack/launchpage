@@ -10,7 +10,7 @@ toggleBtn.addEventListener("click", () => {
 });
 
 /* Countdown Timer */
-const launchDate = new Date("2026-02-01T00:00:00").getTime();
+const launchDate = new Date("2026-03-02T00:00:00").getTime();
 
 setInterval(() => {
   const now = new Date().getTime();
@@ -39,4 +39,5 @@ form.addEventListener("submit", (e) => {
   // Optional: reset form
   form.reset();
 });
+
 
